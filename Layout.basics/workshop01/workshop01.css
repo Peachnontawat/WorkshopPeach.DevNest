@@ -3,55 +3,47 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.toolbar {
-  display: inline-block;
-  padding: 12px 16px;
+.article {
+  width: 360px;
+  padding: 16px;
   background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-}
-
-.icon-btn {
-  position: relative;
-  width: 48px;
-  height: 48px;
-  margin-right: 8px;
-  background: white;
-  border: 1px solid #e2e8f0;
+  border: 2px solid #e2e8f0;
   border-radius: 10px;
-  cursor: pointer;
+  font-size: 13px;
+  line-height: 1.8;
 }
 
-.icon {
-  display: block;
-  font-size: 20px;
-  line-height: 46px;
+.photo {
+  float: left;
+  width: 96px;
+  height: 96px;
+  margin: 0 14px 8px 0;
+  background: #bfdbfe;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  font-size: 30px;
+  line-height: 92px;
   text-align: center;
 }
 
-.badge {
-  position: absolute;
-  top: -6px;
-  right: -6px;
-  z-index: 1;
-  min-width: 18px;
-  height: 18px;
-  padding: 0 5px;
-  background: #ef4444;
-  border: 2px solid white;
-  border-radius: 999px;
-  font-size: 10px;
-  font-weight: 700;
-  line-height: 14px;
-  color: white;
-  text-align: center;
+.headline {
+  margin: 0 0 8px 0;
+  font-size: 17px;
+  color: #1e293b;
 }
 
-.badge--dot {
-  width: 10px;
-  height: 10px;
-  min-width: unset;
-  padding: 0;
-  top: -3px;
-  right: -3px;
+.text {
+  margin: 0 0 8px 0;
+  color: #334155;
+}
+
+.footer {
+  clear: both;
+  margin-top: 8px;
+  padding: 8px 12px;
+  background: #e2e8f0;
+  border-radius: 6px;
+  font-size: 12px;
+  color: #64748b;
+  text-align: center;
 }
